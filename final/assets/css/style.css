@@ -1,0 +1,308 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.post-left {
+
+    display: flex;
+    flex-direction: row;
+
+}
+ 
+/* div {
+    outline: 1px solid red;
+}   */
+
+.content1 {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#title-image {
+    height: 200px;
+    width: auto;
+    padding: 10px;
+    padding-top: 140px;
+    
+
+}
+
+
+.post-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-title {
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.title-right {
+    color: white; 
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+#image {
+    height: 250px;
+    width: 350px;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+header {
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: navy;
+    /* PROBLEM 1: Make the header stick to the top as you scroll */
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    font-family: 'Inknut Antiqua Handgloves';
+}
+
+.content {
+    width: 800px;
+    /* PROBLEM 2: Align the page content to the center of the screen */
+    margin: auto;
+    /* background-color: aqua; */
+}
+
+#other {
+    text-align: right;
+}
+
+#image-banner {
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    opacity: 0.8;
+    filter: brightness(50%);
+    margin-top: 75px;
+}
+
+
+#other-posts {
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.image-card, .image-card-color-overlay {
+    width: 380px;
+    height: 200px;
+}
+
+.image-card {
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    margin-right: 40px;
+    /* PROBLEM 3: Give .image-card the appropriate position type */
+    position: relative;
+}
+
+.image-card:last-child {
+    margin-right: 0;
+}
+
+.image-card img {
+    width: 100%;
+}
+
+.image-card-color-overlay {
+    position: absolute;
+    /* PROBLEM 4: Move the color overlay to cover the image properly */
+    top: 0px;
+    left: 0px;
+    /* PROBLEM 5: What should the opacity be when there is no hover? */
+    opacity: 0;
+    transition: .2s;
+    background-color: navy;
+}
+
+.image-card:hover .image-card-color-overlay {
+    /* PROBLEM 5: Pick an opacity for the blue hover effect */
+    opacity: 1;
+    background-color: navy;
+}
+
+.image-card-text {
+    /* PROBLEM 6: Similar to .image-card-cover-overlay, position the card text */
+    position: absolute;
+    bottom: 1px;
+    right:0px;
+    color: white;
+    font-family: 'Inknut Antiqua Handgloves';
+    padding: 20px;
+    font-size: 30px
+}
+
+
+/* PROBLEM 7: Improve the typography and colors of this page! */
+
+#title {
+    font-size: 20px;
+    font-weight:bolder;
+    color: white;
+
+}
+h1 {
+
+    font-size: 25px;
+    font-family: 'Inknut Antiqua Handgloves';
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 15px;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 20px;
+
+
+}
+a:hover {
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+p {
+    line-height: 32px;
+    margin-top: 80px;
+}
+ 
+p:hover {
+}
+
+#post1 {
+    text-align: left;
+    width: 50%;
+
+}
+
+#post2 {
+    width: 50%;
+    margin-left: 50%;
+    text-align: right;
+}
+
+#post3 {
+    text-align: left;
+    width: 50%;
+}
+
+.first {
+    width: 100%;
+    height: 100px;
+    background: #ccc;
+}
+
+.second {
+    width: 100%;
+    height: 100px;
+    background: #999;
+}
+
+#top {
+    margin-left: 50px;
+    text-align: center;
+}
+
+#image2 {
+    background-image: url('../img/topdog2.jpeg');
+    background-size: cover;
+    height: 200px;
+    
+}
+
+#image3 {
+    background-image: url('../img/topdog3.jpeg');
+    background-size: cover;
+    height: 200px;
+    
+}
+
+#image4 {
+    background-image: url('../img/topdog4.jpeg');
+    background-size: cover;
+    height: 200px;
+    
+}
+
+#more_text {
+    position: absolute;
+  top: 15%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+    font-size: 40px;
+    text-align: left;
+    padding-top: 230px;
+    padding-left: 100px;
+    color: white;
+}
+#more_text-right {
+    position: absolute;
+  top: 15%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+    font-size: 40px;
+    text-align: left;
+    padding-top: 230px;
+    padding-left: 100px;
+    color: white;
+}
+
+.nav {
+    color: white;
+}
+
+.image-horiz {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+#image_top {
+    height: 250px;
+    width: auto;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+
+  .slidecontainer {
+    width: 100%;
+  }
+
+  .slider {
+    -webkit-appearance: none; 
+    appearance: none;
+    background: gold; 
+    opacity: .9; 
+    width: 100%; 
+    height: 15px; 
+
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }

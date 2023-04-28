@@ -1,6 +1,194 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        FINAL
-    </body>
+	<head>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Shantell+Sans">
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Labrada">
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Inknut+Antiqua+Handgloves">
+	</head>
+	<body>
+		<header>
+			<div class="content1">
+				<div class="nav">
+					<a class="main-title" href="./index.html">About Me</a>
+				</div>
+				<div class="nav">
+					<a class="main-title" href="./index1.html">Projects</a>
+				</div>
+        <div class="nav">
+					<a class="main-title" href="./index1.html">Partnerships</a>
+				</div>
+			</div>
+		</header>
+
+		<div>
+
+			<div>
+				<img id="image-banner" src= "./assets/img/technical_wallpaper.jpg">
+
+			</div>
+      <div id = "more_text">
+				<p>
+					Hi, I'm Tanmay Vijaywargiya
+				</p>
+			</div>
+      <div id = "more_text-right">
+        <img id="image_top" src= "./assets/img/photo_pic_grad.jpg">
+			</div>
+		</div>
+
+    <div class="slidecontainer">
+      <input type="range" min="1" max="100" value="50" class="slider" id="width-full">
+
+    </div>
+    <div>
+
+
+		<div class="content1">
+      <div>
+        <p>
+        </p>
+        <p>
+          UC Berkeley        </p>
+        <p>
+          B.A. Data Science        </p>
+        <p>
+          B.A. Economics        </p>
+        <p>
+          B.A. Economics        
+        </p>
+      </div>
+      <div>
+        <img id="title-image" src= "./assets/img/berk_logo.png">
+      </div>
+      <div>
+        <p>
+        </p>
+        <p>
+          AI/ML Fan        </p>
+        <p>
+          Collegiate Golfer       </p>
+        <p>
+          Tennis Player        </p>
+        <p>
+          Avid Geographer        
+        </p>
+      </div>
+    </div>
+    </div>
+ 
+      <div class="content">
+			<section id="post">
+				<h1>Projects</h1>
+            </section>
+            <section class="post-left">
+				<div>
+					<h3>
+            <a href="./index.html">Predicting Immunosuppression using ML</a>
+          </h3>
+          <p>
+            I worked on a project to help better predict immunosuppression in populations. I used datasets from the CDC and cleaned them (implementing significance testing) to find features that were of importance: such as prior history to diabetes, chronic illness, and resident of higher air quality region. Then I trained multiple different ML models (Random Forests, Decision Trees, Linear Regression, and more) to determine how well immunosuppression an individual could be predicted.
+                    					</p>
+				</div>
+				<div>
+					<input type="image" id="image" alt="Login"
+					src="./assets/img/medtech.jpeg">
+				</div>
+            </section>
+            <section class="post-left">
+              <div>
+                <h3>
+                  <a href="./index.html">Traffic Duration ML Models</a>
+
+                </h3>
+                <p>
+                  I wanted to determine how precisely we could understand traffic duration in the Bay Area. We took a point of interest, downtown SF, and used geolocation tools to map other areas in the Bay Area to see how long it takes cars to reach downtown SF. We utilized multiple types of regressions to eventually minimize our error (implemented Lasso and Ridge) and predict properly, without overfitting, the traffic duration from any spot in the Bay to downtown SF. 
+                                </p>
+              </div>
+              <div>
+                <input type="image" id="image" alt="Login"
+                src="./assets/img/traffic_tech.jpeg">
+              </div>
+                  </section>
+            
+                  
+              <section class="post-left">
+                <div>
+                  <h3>
+                    <a href="./index1.html">Co-Founder of Startup 'Via'</a>
+                    
+                  </h3>
+                  <p>
+                    My startup Via began as a travel itinerary recommendation platform that would utilize AI to recommend trip plans based on crowdsourced and grassroots approaches. We were able to create an initial pitch and we presented in front of VCs - landing in 1st place at a UC Berkeley pitch competition. 
+                                    </p>
+                </div>
+                <div>
+                  <input type="image" id="image" alt="Login"
+                  src="./assets/img/via_logo_main.png">
+                </div>
+              </section>
+            
+				</div>
+        <div id="post">
+          <h1> Partnerships</h1>
+        </div>
+
+      <div class = "content1">
+
+        <section id="other-posts">
+  
+          <div class="image-card">
+            <a href="#">
+              <img src="assets/img/scet_logo.jpeg" alt="">
+              <div class="image-card-color-overlay"></div>
+              <div class="image-card-text">SCET</div>
+            </a>
+          </div>
+  
+          <div class="image-card">
+            <a href="#">
+              <img src="assets/img/beacn-image.jpeg" alt="">
+              <div class="image-card-color-overlay"></div>
+              <div class="image-card-text">BEACN Consulting</div>
+            </a>
+          </div>
+          
+        </section>
+      </div>
+      <div class = "content1">
+
+        <section id="other-posts">
+  
+          <div class="image-card">
+            <a href="#">
+              <img src="assets/img/cal_club_golf.jpeg" alt="">
+              <div class="image-card-color-overlay"></div>
+              <div class="image-card-text">Berkeley Club Golf Team</div>
+            </a>
+          </div>
+  
+          <div class="image-card">
+            <a href="#">
+              <img src="assets/img/Arunabh.png" alt="">
+              <div class="image-card-color-overlay"></div>
+              <div class="image-card-text">Arunabh</div>
+            </a>
+          </div>
+        </section>
+        </div>
+
+
+	</body>
+
+  <script src="assets/js/script.js"></script>
+  
 </html>
+
+
+
